@@ -1,0 +1,66 @@
+%%!TEX root=../main.tex
+
+\section{Introduction}
+% TODO: add lpr NN reference
+License plate recognition is a common component in traffic management system
+and is crucial to a successful intelligent city infrastructure. The key idea is 
+that automatic license plate recognition can significantly reduce the need of 
+human labour and thus reducing the cost of urban city maintenance. Since this
+fall into the huge category of image recognition, there is a huge interest 
+in leveraging the ability of neural network to improve the accuracy and to 
+replace the heuristic method using deep learning.
+
+Sparse representation has been used in a large variety of research, including
+de-noising\cite{4011956}, pattern recognition\cite{CGV-058}, image up-scaling\cite{SparesuperResolution}
+and facial recognition\cite{SparseFace}. A key idea in sparse coding is how to select
+or "learn" a dictionary. In this paper, the CCPD2019\cite{xu2018towards} 
+dataset is being used as the main training data. Some of the early works has purposed
+creating a representation using fixed-base\cite{5452966} while more recent research
+has providing proofs that a learned dictionary can achieve better performance\cite{4011956}.
+The original goal of the sparse coding problem is not targeted towards classification problem but
+to signal representation and compression. However, we can perform classification 
+by exploiting the discriminative nature of sparse representation. In this work, instead of selecting
+a dictionary, we learned the dictionary using the training data themselves. With sufficient samples
+from each class, it is possible to form a linear representation to present each samples. Yet,
+the representation has to be sparse enough. The generated sparse representation is then directly
+used to classify the samples. 
+
+% TODO: add chinese license plate 
+Sparse representation is well suited to reduce the complexity of the input dataset of 
+images of license plate due to the inherit regular format of license 
+plate following the local government law. The challenge presented here is that 
+the license plate in China include Chinese characters presenting different provinces.
+Even the characters come from a limited set, the chinese characters have more strokes
+than common alphabet or numerical digits used in the western countries. Since most of
+Chinese character recognition project are target towards hand-written images, they are
+well suit for the purpose of this research.
+
+A key limitation of using deep learning method for a license plate recognition system
+is that the size of the incoming stream of data is huge compared to normal image recognition
+or pattern detection. It is common to have thousand of traffic flows in a urban city 
+which license plate recognition are needed in a lot of the corners of the city's highway
+and road. Sending all the data to a data center for plate recognition is not an ideal
+solution since a lot of the old highways don't have ideal telecommunication system built
+in the infrastructure. Therefore a certain amount of light pre-processing is required 
+on the embedded device in the monitoring camera. Using sparse representation can 
+allow less amount of processing power of the distributed system and have part of the 
+recognition implanted in camera system which has limited battery life and processing power.
+
+The key contributions of this paper include:
+\begin{itemize}
+	\item Provide detail description of the end-to-end process from vehicle image
+	to license plate digit output
+	\item Provide a usage example of incorporating sparse encoding into license
+	plate recognition
+	\item Developed a license plate recognition targeting China license plate 
+	format 
+	\item Comparison of convolution dictionary learning (CDL) methods between 
+	Convolution Basis Pursuit De-Noising (CBPDN)\cite{CDLreview2018} and Online 
+	CDL with spatial masking\cite{onlineCDL}
+	\item Comparison of convolution sparse coding (CDC) methods between 
+	Single channel CSC\cite{CDLreview2018}, FISTA CBPDN solver\cite{SOREL201644} and Single channel CSC with 
+	lateral inhibition\cite{CDLreview2018}
+	\item Quantification of the accuracy-complexity trade-offs, runtime
+	for neural network using data from the CCPD2019~\cite{xu2018towards} dataset
+\end{itemize}
+

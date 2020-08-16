@@ -1,0 +1,125 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{4011956}
+M.~{Elad} and M.~{Aharon}, ``Image denoising via sparse and redundant
+  representations over learned dictionaries,'' \emph{IEEE Transactions on Image
+  Processing}, vol.~15, no.~12, pp. 3736--3745, 2006.
+
+\bibitem{CGV-058}
+\BIBentryALTinterwordspacing
+J.~Mairal, F.~Bach, and J.~Ponce, ``Sparse modeling for image and vision
+  processing,'' \emph{Foundations and Trends® in Computer Graphics and
+  Vision}, vol.~8, no. 2-3, pp. 85--283, 2014. [Online]. Available:
+  \url{http://dx.doi.org/10.1561/0600000058}
+\BIBentrySTDinterwordspacing
+
+\bibitem{SparesuperResolution}
+J.~{Yang}, J.~{Wright}, T.~S. {Huang}, and Y.~{Ma}, ``Image super-resolution
+  via sparse representation,'' \emph{IEEE Transactions on Image Processing},
+  vol.~19, no.~11, pp. 2861--2873, 2010.
+
+\bibitem{SparseFace}
+J.~{Wright}, A.~Y. {Yang}, A.~{Ganesh}, S.~S. {Sastry}, and Y.~{Ma}, ``Robust
+  face recognition via sparse representation,'' \emph{IEEE Transactions on
+  Pattern Analysis and Machine Intelligence}, vol.~31, no.~2, pp. 210--227,
+  2009.
+
+\bibitem{xu2018towards}
+Z.~Xu, W.~Yang, A.~Meng, N.~Lu, and H.~Huang, ``Towards end-to-end license
+  plate detection and recognition: A large dataset and baseline,'' in
+  \emph{Proceedings of the European Conference on Computer Vision (ECCV)},
+  2018, pp. 255--271.
+
+\bibitem{5452966}
+R.~{Rubinstein}, A.~M. {Bruckstein}, and M.~{Elad}, ``Dictionaries for sparse
+  representation modeling,'' \emph{Proceedings of the IEEE}, vol.~98, no.~6,
+  pp. 1045--1057, 2010.
+
+\bibitem{CDLreview2018}
+C.~{Garcia-Cardona} and B.~{Wohlberg}, ``Convolutional dictionary learning: A
+  comparative review and new algorithms,'' \emph{IEEE Transactions on
+  Computational Imaging}, vol.~4, no.~3, pp. 366--381, 2018.
+
+\bibitem{onlineCDL}
+\BIBentryALTinterwordspacing
+J.~Liu, C.~Garcia-Cardona, B.~Wohlberg, and W.~Yin, ``First- and second-order
+  methods for online convolutional dictionary learning,'' \emph{SIAM Journal on
+  Imaging Sciences}, vol.~11, no.~2, pp. 1589--1628, 2018. [Online]. Available:
+  \url{https://doi.org/10.1137/17M1145689}
+\BIBentrySTDinterwordspacing
+
+\bibitem{SOREL201644}
+\BIBentryALTinterwordspacing
+M.~Šorel and F.~Šroubek, ``Fast convolutional sparse coding using matrix
+  inversion lemma,'' \emph{Digital Signal Processing}, vol.~55, pp. 44 -- 51,
+  2016. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S1051200416300276}
+\BIBentrySTDinterwordspacing
+
+\bibitem{li2017endtoend}
+H.~Li, P.~Wang, and C.~Shen, ``Towards end-to-end car license plates detection
+  and recognition with deep neural networks,'' 2017.
+
+\bibitem{redmon2015look}
+J.~Redmon, S.~Divvala, R.~Girshick, and A.~Farhadi, ``You only look once:
+  Unified, real-time object detection,'' 2015.
+
+\bibitem{lpdectionComplex}
+{Jun-Wei Hsieh}, {Shih-Hao Yu}, and {Yung-Sheng Chen}, ``Morphology-based
+  license plate detection from complex scenes,'' in \emph{Object recognition
+  supported by user interaction for service robots}, vol.~3, 2002, pp. 176--179
+  vol.3.
+
+\bibitem{NovelLPDectionWavelet}
+S.~Yu, B.~Li, Q.~Zhang, C.~Liu, and M.~Meng, ``A novel license plate location
+  method based on wavelet transform and emd analysis,'' \emph{Pattern
+  Recognition}, vol.~48, p. 114–125, 01 2015.
+
+\bibitem{LPDetectMultiStage}
+\BIBentryALTinterwordspacing
+Z.~Yao and W.~Yi, ``License plate detection based on multistage information
+  fusion,'' \emph{Information Fusion}, vol.~18, pp. 78 -- 85, 2014. [Online].
+  Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S1566253513000663}
+\BIBentrySTDinterwordspacing
+
+\bibitem{DPLHSIcolor}
+K.~{Deb} and K.~{Jo}, ``Hsi color based vehicle license plate detection,'' in
+  \emph{2008 International Conference on Control, Automation and Systems},
+  2008, pp. 687--691.
+
+\bibitem{SobelOp}
+I.~Sobel, ``An isotropic 3x3 image gradient operator,'' \emph{Presentation at
+  Stanford A.I. Project 1968}, 02 2014.
+
+\bibitem{SpareRepre}
+\BIBentryALTinterwordspacing
+J.~Mairal, F.~R. Bach, and J.~Ponce, ``Sparse modeling for image and vision
+  processing,'' \emph{CoRR}, vol. abs/1411.3230, 2014. [Online]. Available:
+  \url{http://arxiv.org/abs/1411.3230}
+\BIBentrySTDinterwordspacing
+
+\bibitem{simonyan2014very}
+K.~Simonyan and A.~Zisserman, ``{Very deep convolutional networks for
+  large-scale image recognition},'' \emph{arXiv preprint arXiv:1409.1556},
+  2014.
+
+\end{thebibliography}

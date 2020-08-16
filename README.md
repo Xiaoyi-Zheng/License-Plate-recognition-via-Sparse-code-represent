@@ -1,0 +1,3 @@
+DATASET introduction：https://blog.csdn.net/qianbin3200896/article/details/103009221?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.compare&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.compare
+dataset source：https://github.com/detectRecog/CCPD
+Proprocess reference:https://blog.csdn.net/cuiran/article/details/86706441

@@ -1,0 +1,28 @@
+%%!TEX root=../main.tex
+
+\section{Conclusion}
+\subsection{Performance}
+In term of CNN model, we can find that the performance of sparse data doesn't perform better than original data, 
+especially for the province category. The reason behind it may because our original image is small enough 
+and obtaining the sparse representation of a very small and binaries image cause an adverse effect on the 
+info being retained in the data. In another words, causing a information loss in the sparse representation.
+In the end, causing an accuracy loss in the classifier. 
+
+Comparing SVM and CNN, the validation accuracies are similar. Therefore, applying sparse representation data
+on SVM can also be an viable option. On top of that, SVM is more lightweight than CNN which could be used
+easily on a resource hungry environment, such as parking-lot cameras. Also, it takes less time to train the data. 
+
+If the scenario requires a quick response time, such as the camera on highway, CNN will a better choice. 
+
+\subsection{System Proposal}
+In this paper, we have successful proposed a workflow of an end-to-end license plate
+recognition system. Starting with image pre-processing, sparse dictionary learning and sparse coding problem to 
+classifier model choice. We have also demonstrated the accuracy of our workflow can be up to 99.05\% accuracy 
+with the CCPD2019\cite{xu2018towards, li2017endtoend} dataset containing over thousands of images.
+Even if the sparse representation is not hitting as high accuracy as expected, the accuracy achievable is around
+97.46\% which is still a significant number. Also the sparse nature of this representation allow rooms for 
+further compression for data storage. 
+
+
+
+
