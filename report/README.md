@@ -1,4 +1,4 @@
-# Partitioning FPGA-Optimized Systolic Arrays for Fun and Profit
+# License plate recognition via sparse code represent
 
 ## Introduction (3/4 page)
 - the common requirement for license plate recognition
